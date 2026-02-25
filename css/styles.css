@@ -96,6 +96,18 @@ a:hover {
   margin: 0 auto;
 }
 
+.hero-app-name {
+  font-size: clamp(2.5rem, 6vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+
+.hero-app-name span {
+  color: var(--color-primary);
+}
+
 .hero h1 {
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 700;
